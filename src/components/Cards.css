@@ -128,3 +128,19 @@
     margin-bottom: 2rem;
   }
 }
+
+.Percard{
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 15px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  border: 1px solid rgb(0, 138, 218);
+  transition: all 0.3s ease-out;
+
+}

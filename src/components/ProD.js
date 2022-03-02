@@ -1,6 +1,9 @@
 import React from 'react';
 import './ProD.css';
 import ProDItem from './ProDItem';
+import { Link } from 'react-router-dom';
+import { Button } from './Button';
+
 function ProD() {
     return (
       <div className='backpro'>
@@ -32,7 +35,18 @@ function ProD() {
               label='Adrenaline'
               path='/sign-up'
             />
+
           </ul>
+          <li>
+          
+          <Link
+          className='Proo' 
+            to='/performance'
+          >
+            สินค้าเพิ่มเติม
+          </Link>
+        
+        </li>
         </div>
       </div>
     </div>

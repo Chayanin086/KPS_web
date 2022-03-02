@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-
+import { Link } from 'react-router-dom';
 function Cards() {
   return (
     <div className='cards'>
@@ -41,8 +41,18 @@ function Cards() {
               label='Adrenaline'
               path='/sign-up'
             />
+          
           </ul>
+          
         </div>
+        <li>
+            <Link
+               to='/performance'
+               className='Percard'
+              >
+              ผลงานเพิ่มเติม
+            </Link>
+        </li>
       </div>
     </div>
   );
