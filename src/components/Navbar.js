@@ -37,7 +37,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                หน้าแรก
               </Link>
             </li>
             <li className='nav-item'>
@@ -46,7 +46,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                สินค้า
               </Link>
             </li>
             <li className='nav-item'>
@@ -55,7 +55,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Performance
+                ผลงาน
               </Link>
             </li>           
             <li className='nav-item'>
@@ -64,7 +64,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Contact us
+                ช่องทางการติดต่อ
               </Link>
             </li>
 
