@@ -9,27 +9,27 @@ function ProD() {
         <div className='cards__wrapper'>
           <ul className='Prod__items'>
           <ProDItem
-              src='images/img-3.jpg'
+              src='images/relay0003.jpg'
               text='SHOP NOW! ฿999'
-              label='Mystery'
+              label='Relay'
               path='/services'
             />
             <ProDItem
-              src='images/img-4.jpg'
+              src='images/Timer.png'
               text='SHOP NOW! ฿999'
-              label='Adventure'
+              label='Timer'
               path='/products'
             />
             <ProDItem
-              src='images/img-8.jpg'
+              src='images/เกียทดรอบ.jpg'
               text='SHOP NOW! ฿999'
-              label='Adrenaline'
+              label='Worm gear'
               path='/sign-up'
             />
             <ProDItem
-              src='images/img-8.jpg'
+              src='images/Hydrulic Valves.jpg'
               text='SHOP NOW! ฿999'
-              label='Adrenaline'
+              label='Hydrulic Valves'
               path='/sign-up'
             />
           </ul>
