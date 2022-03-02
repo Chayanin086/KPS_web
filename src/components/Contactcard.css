@@ -1,0 +1,173 @@
+.contact-container {
+    background-color: #ffffff;
+    padding: 0rem 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    margin-bottom: 15px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .contact-subscription > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif,'Designil Thai Font';
+  }
+  
+  .contact-subscription-heading {
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: #000000;
+  }
+  
+  /* .footer-subscription-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+  } */
+  
+  .contact-input {
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .contact-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-link-wrapper {
+    display: flex;
+  }
+  
+  .contact-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+    text-align: right;
+    color: #000000;
+    width:450px;
+    
+    box-sizing: border-box;
+    float: right;
+  }
+
+  /* ระยะห่างที่อยู่กับข้อความ */
+  .contact-link-items h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-link-items > h2 {
+    color: rgb(0, 0, 0);
+  }
+  
+  .contact-link-items a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+  .contact-link-items > p {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    line-height: 1.5;
+  }
+  
+  .contact-link-items a:hover {
+    color: #000000;
+    transition: 0.3s ease-out;
+  }
+  
+  .contact-email-form h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .contact-input::placeholder {
+    color: #b1b1b1;
+  }
+  
+  /* Social Icons */
+  .contact-icon-link {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+  }
+  
+  .contact-media {
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .contact-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+  }
+  
+  .contact-logo {
+    color: rgb(0, 0, 0);
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .website-rights {
+    color: rgb(0, 0, 0);
+    margin-bottom: 16px;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .contact-links {
+      padding-top: 2rem;
+    }
+  
+    .contact-input {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .contact-link-wrapper {
+      flex-direction: column;
+    }
+  
+    .contact-media-wrap {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  }
