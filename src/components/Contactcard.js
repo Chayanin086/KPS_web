@@ -7,7 +7,7 @@ function Contactcard() {
     <div className='contact-container'>
       <section className='contact-subscription'>
         <h1 className='contact-subscription-heading'>
-          Contact
+        
         </h1>
       </section>
       <div class='contact-links'>
