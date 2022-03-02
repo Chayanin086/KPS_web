@@ -10,105 +10,105 @@ function Productcards() {
         <div className='product__wrapper'>
           <ul className='product__items'>
             <ProductItem
-              src='images/img-3.jpg'
+              src='images/relay0003.jpg'
               text='SHOP NOW! ฿999'
-              label='Mystery'
+              label='Relay'
               path='/product'
             />
             <ProductItem
-              src='images/img-4.jpg'
+              src='images/Timer.png'
               text='SHOP NOW! ฿999'
-              label='Adventure'
+              label='Timer'
               path='/product'
             />
             <ProductItem
-              src='images/img-8.jpg'
+              src='images/เกียทดรอบ.jpg'
               text='SHOP NOW! ฿999'
-              label='Adrenaline'
+              label='Worm gear'
               path='/product'
             />
             <ProductItem
-              src='images/img-8.jpg'
+              src='images/Hydrulic Valves.jpg'
               text='SHOP NOW! ฿999'
-              label='Adrenaline'
-              path='/product'
-            />
-          </ul>
-          <ul className='product__items'>
-            <ProductItem
-              src='images/img-3.jpg'
-              text='SHOP NOW! ฿999'
-              label='Mystery'
-              path='/product'
-            />
-            <ProductItem
-              src='images/img-4.jpg'
-              text='SHOP NOW! ฿999'
-              label='Adventure'
-              path='/product'
-            />
-            <ProductItem
-              src='images/img-8.jpg'
-              text='SHOP NOW! ฿999'
-              label='Adrenaline'
-              path='/product'
-            />
-            <ProductItem
-              src='images/img-8.jpg'
-              text='SHOP NOW! ฿999'
-              label='Adrenaline'
+              label='Hydrulic Valves'
               path='/product'
             />
           </ul>
           <ul className='product__items'>
             <ProductItem
-              src='images/img-3.jpg'
+              src='images/Hydrulic Valves.jpg'
               text='SHOP NOW! ฿999'
-              label='Mystery'
+              label='Hydrulic Valves'
               path='/product'
             />
             <ProductItem
-              src='images/img-4.jpg'
+              src='images/เกียทดรอบ.jpg'
               text='SHOP NOW! ฿999'
-              label='Adventure'
+              label='Worm gear'
               path='/product'
             />
             <ProductItem
-              src='images/img-8.jpg'
+              src='images/Timer.png'
               text='SHOP NOW! ฿999'
-              label='Adrenaline'
+              label='Timer'
               path='/product'
             />
             <ProductItem
-              src='images/img-8.jpg'
+              src='images/relay0003.jpg'
               text='SHOP NOW! ฿999'
-              label='Adrenaline'
+              label='Relay'
               path='/product'
             />
           </ul>
           <ul className='product__items'>
             <ProductItem
-              src='images/img-3.jpg'
+              src='images/relay0003.jpg'
               text='SHOP NOW! ฿999'
-              label='Mystery'
+              label='Relay'
               path='/product'
             />
             <ProductItem
-              src='images/img-4.jpg'
+              src='images/Timer.png'
               text='SHOP NOW! ฿999'
-              label='Adventure'
+              label='Timer'
               path='/product'
             />
             <ProductItem
-              src='images/img-8.jpg'
+              src='images/เกียทดรอบ.jpg'
               text='SHOP NOW! ฿999'
-              label='Adrenaline'
+              label='Worm gear'
               path='/product'
             />
             <ProductItem
-              src='images/img-8.jpg'
+              src='images/Hydrulic Valves.jpg'
               text='SHOP NOW! ฿999'
-              label='Adrenaline'
+              label='Hydrulic Valves'
+              path='/product'
+            />
+          </ul>
+          <ul className='product__items'>
+            <ProductItem
+              src='images/Hydrulic Valves.jpg'
+              text='SHOP NOW! ฿999'
+              label='Hydrulic Valves'
+              path='/product'
+            />
+            <ProductItem
+              src='images/เกียทดรอบ.jpg'
+              text='SHOP NOW! ฿999'
+              label='Worm gear'
+              path='/product'
+            />
+            <ProductItem
+              src='images/Timer.png'
+              text='SHOP NOW! ฿999'
+              label='Timer'
+              path='/product'
+            />
+            <ProductItem
+              src='images/relay0003.jpg'
+              text='SHOP NOW! ฿999'
+              label='Relay'
               path='/product'
             />
           </ul>
