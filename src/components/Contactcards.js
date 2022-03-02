@@ -1,6 +1,6 @@
 import React from 'react';
 import './Perfcards.css';
-// import CardItem from './CardItem';
+// import ContactItem from './ContactItem'
 
 function Contactcards() {
   return (

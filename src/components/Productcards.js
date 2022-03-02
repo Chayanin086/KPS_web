@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import CardItem from './CardItem';
+import ProductItem from './ProductItem';
 import './Productcards.css';
 
 function Productcards() {
@@ -10,25 +10,25 @@ function Productcards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
+            <ProductItem
               src='images/img-3.jpg'
               text='SHOP NOW! ฿999'
               label='Mystery'
               path='/services'
             />
-            <CardItem
+            <ProductItem
               src='images/img-4.jpg'
               text='SHOP NOW! ฿999'
               label='Adventure'
               path='/products'
             />
-            <CardItem
+            <ProductItem
               src='images/img-8.jpg'
               text='SHOP NOW! ฿999'
               label='Adrenaline'
               path='/sign-up'
             />
-            <CardItem
+            <ProductItem
               src='images/img-8.jpg'
               text='SHOP NOW! ฿999'
               label='Adrenaline'
@@ -36,25 +36,25 @@ function Productcards() {
             />
           </ul>
           <ul className='cards__items'>
-            <CardItem
+            <ProductItem
               src='images/img-3.jpg'
               text='SHOP NOW! ฿999'
               label='Mystery'
               path='/services'
             />
-            <CardItem
+            <ProductItem
               src='images/img-4.jpg'
               text='SHOP NOW! ฿999'
               label='Adventure'
               path='/products'
             />
-            <CardItem
+            <ProductItem
               src='images/img-8.jpg'
               text='SHOP NOW! ฿999'
               label='Adrenaline'
               path='/sign-up'
             />
-            <CardItem
+            <ProductItem
               src='images/img-8.jpg'
               text='SHOP NOW! ฿999'
               label='Adrenaline'
@@ -62,25 +62,25 @@ function Productcards() {
             />
           </ul>
           <ul className='cards__items'>
-            <CardItem
+            <ProductItem
               src='images/img-3.jpg'
               text='SHOP NOW! ฿999'
               label='Mystery'
               path='/services'
             />
-            <CardItem
+            <ProductItem
               src='images/img-4.jpg'
               text='SHOP NOW! ฿999'
               label='Adventure'
               path='/products'
             />
-            <CardItem
+            <ProductItem
               src='images/img-8.jpg'
               text='SHOP NOW! ฿999'
               label='Adrenaline'
               path='/sign-up'
             />
-            <CardItem
+            <ProductItem
               src='images/img-8.jpg'
               text='SHOP NOW! ฿999'
               label='Adrenaline'
@@ -88,25 +88,25 @@ function Productcards() {
             />
           </ul>
           <ul className='cards__items'>
-            <CardItem
+            <ProductItem
               src='images/img-3.jpg'
               text='SHOP NOW! ฿999'
               label='Mystery'
               path='/services'
             />
-            <CardItem
+            <ProductItem
               src='images/img-4.jpg'
               text='SHOP NOW! ฿999'
               label='Adventure'
               path='/products'
             />
-            <CardItem
+            <ProductItem
               src='images/img-8.jpg'
               text='SHOP NOW! ฿999'
               label='Adrenaline'
               path='/sign-up'
             />
-            <CardItem
+            <ProductItem
               src='images/img-8.jpg'
               text='SHOP NOW! ฿999'
               label='Adrenaline'
