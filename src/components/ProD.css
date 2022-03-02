@@ -1,11 +1,11 @@
 .backpro {
     padding: 4rem;
-    background: rgb(214, 250, 255);
+    background: rgb(8, 1, 70);
 }
   
 .backpro>h1 {
     text-align: center;
-    color: rgb(51, 50, 50);
+    color: rgb(255, 255, 255);
 }
   
 .Prod__container {
@@ -95,7 +95,7 @@
 }
   
 .Prod__item__text {
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     line-height: 24px;
 }
@@ -116,24 +116,20 @@
 .Prod__item {
       margin-bottom: 2rem;
     }
-<<<<<<< HEAD
 }
+
 .Proo{
-    display: block;
-    text-align: center;
-    margin: 2rem auto;
-    border-radius: 15px;
-    width: 50%;
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    padding: 14px 20px;
-    border: 1px solid rgb(0, 0, 0);
-    transition: all 0.3s ease-out;
-
+        display: block;
+        text-align: center;
+        margin: 2rem auto;
+        border-radius: 15px;
+        width: 50%;
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        padding: 14px 20px;
+        border: 1px solid rgb(255, 255, 255);
+        transition: all 0.3s ease-out;
+    
 }
-
-=======
-}
->>>>>>> e148fa489eacbf4f527dc46103aaf8fa692e1818

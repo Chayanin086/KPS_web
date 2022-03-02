@@ -1,11 +1,8 @@
 import React from 'react';
 import './ProD.css';
 import ProDItem from './ProDItem';
-<<<<<<< HEAD
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
-=======
->>>>>>> e148fa489eacbf4f527dc46103aaf8fa692e1818
 
 function ProD() {
     return (
