@@ -8,7 +8,7 @@ function HeroSection() {
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>Welcome</h1>
-      <h1>To</h1>
+      <h1>to</h1>
       <h1>KPS automation</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
