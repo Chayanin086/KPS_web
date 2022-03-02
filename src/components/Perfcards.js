@@ -6,48 +6,48 @@ function Perfcards() {
   return (
     <div className='perfomance'>
       <h1>PERFORMANCE</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className='performance__container'>
+        <div className='performance__wrapper'>
+          <ul className='performance__items'>
             <PerfItem
               src='images/img-9.jpg'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
               label='Adventure'
-              path='/services'
+              path='/perfomances'
             />
             <PerfItem
               src='images/img-2.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
-              path='/services'
+              path='/perfomances'
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className='performance__items'>
             <PerfItem
               src='images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
-              path='/services'
+              path='/perfomances'
             />
             <PerfItem
               src='images/img-4.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
-              path='/products'
+              path='/perfomances'
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className='performance__items'>
             <PerfItem
               src='images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
-              path='/services'
+              path='/perfomances'
             />
             <PerfItem
               src='images/img-8.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
-              path='/sign-up'
+              path='/perfomances'
             />
           </ul>
         </div>

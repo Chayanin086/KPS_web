@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -15,16 +14,14 @@ function Footer() {
         <div className='footer-link-wrapper'>
         <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              KPS AUTOMATION
-            
+              KPS AUTOMATION           
             </Link>
           </div>
           <div class='footer-link-items'>
             <h2>ที่อยู่</h2>
-            <p>เค.พี.เอส. ออโตเมชั่น    90/1   ม.4 
-          </p>
-            <p>ต.ช้างขวา อ.กาญจนดิษฐ์ จ. สุราษฎร์ธานี    </p>
-            <p> 84160</p>
+            <p>เค.พี.เอส. ออโตเมชั่น    90/1   ม.4 </p>
+            <p>ต.ช้างขวา อ.กาญจนดิษฐ์ จ. สุราษฎร์ธานี </p>
+            <p>84160</p>
 
           </div>
           <div class='footer-link-items'>
@@ -34,13 +31,8 @@ function Footer() {
             <p i class = "fab fa-line fa-5x" >     Line         :          084-6648294</p>
           
           </div>
-        </div>
-        
-          
-      
-
+        </div>       
       </div>
-
     </div>
   );
 }

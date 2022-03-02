@@ -33,13 +33,8 @@ function Contactcard() {
             <p i class = "fab fa-line fa-5x" >     Line         :          084-6648294</p>
           
           </div>
-        </div>
-        
-          
-      
-
+        </div>                  
       </div>
-
     </div>
   );
 }
