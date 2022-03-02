@@ -8,7 +8,7 @@
     color: rgb(51, 50, 50);
 }
   
-.cards__container {
+.Prod__container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -17,7 +17,7 @@
     margin: 0 auto;
 }
   
-.cards__wrapper {
+.Prod__wrapper {
     position: relative;
     margin: 50px 0 45px;
 }
@@ -86,7 +86,7 @@
     transition: all 0.2s linear;
 }
   
-  .Prod__item__img:hover {
+.Prod__item__img:hover {
     transform: scale(1.1);
 }
   
@@ -101,7 +101,7 @@
 }
   
 @media only screen and (min-width: 1200px) {
-.content__blog__container {
+.Prod__blog__container {
       width: 84%;
     }
 }
@@ -116,6 +116,7 @@
 .Prod__item {
       margin-bottom: 2rem;
     }
+<<<<<<< HEAD
 }
 .Proo{
     display: block;
@@ -133,3 +134,6 @@
 
 }
 
+=======
+}
+>>>>>>> e148fa489eacbf4f527dc46103aaf8fa692e1818

@@ -1,8 +1,11 @@
 import React from 'react';
 import './ProD.css';
 import ProDItem from './ProDItem';
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
+=======
+>>>>>>> e148fa489eacbf4f527dc46103aaf8fa692e1818
 
 function ProD() {
     return (
@@ -12,28 +15,28 @@ function ProD() {
         <div className='cards__wrapper'>
           <ul className='Prod__items'>
           <ProDItem
-              src='images/img-3.jpg'
+              src='images/relay0003.jpg'
               text='SHOP NOW! ฿999'
-              label='Mystery'
-              path='/services'
+              label='Relay'
+              path='/product'
             />
             <ProDItem
-              src='images/img-4.jpg'
+              src='images/Timer.png'
               text='SHOP NOW! ฿999'
-              label='Adventure'
-              path='/products'
+              label='Timer'
+              path='/product'
             />
             <ProDItem
-              src='images/img-8.jpg'
+              src='images/เกียทดรอบ.jpg'
               text='SHOP NOW! ฿999'
-              label='Adrenaline'
-              path='/sign-up'
+              label='Worm gear'
+              path='/product'
             />
             <ProDItem
-              src='images/img-8.jpg'
+              src='images/Hydrulic Valves.jpg'
               text='SHOP NOW! ฿999'
-              label='Adrenaline'
-              path='/sign-up'
+              label='Hydrulic Valves'
+              path='/product'
             />
 
           </ul>

@@ -9,7 +9,7 @@ function ProDItem(props) {
           <figure className='Prod__item__pic-wrap' data-category={props.label}>
             <img
               className='Prod__item__img'
-              alt='Travel Image'
+              alt='Travel'
               src={props.src}
             />
           </figure>
