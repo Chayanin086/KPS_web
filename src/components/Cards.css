@@ -3,14 +3,20 @@
   background: rgb(232, 247, 250);
 }
 
-h1 {
-  text-align: center;
+.cards > h1 {
+  padding: 4rem;
   color: rgb(10, 10, 10);
+  font-size: 40px;
+  margin-top: -40px;
+  text-align: center;
 }
 
-p {
-  text-align: center;
+.cards > p {
+  padding: 4rem;
   color: rgb(10, 10, 10);
+  font-size: 40px;
+  margin-top: -40px;
+  text-align: center;
 }
 
 .cards__container {

@@ -1,11 +1,14 @@
-.cards {
-    padding: 4rem;
+.perfomance {
+    padding: 1rem;
     background: rgb(232, 247, 250);
 }
-  
-h1 {
+
+.perfomance > h1 {
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
     text-align: center;
-    color: rgb(10, 10, 10);
+    background-color: rgb(38, 9, 141);
 }
   
 .cards__container {
@@ -86,7 +89,7 @@ h1 {
     transition: all 0.2s linear;
 }
   
-  .cards__item__img:hover {
+.cards__item__img:hover {
     transform: scale(1.1);
 }
   
