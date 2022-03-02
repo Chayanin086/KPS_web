@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../App.css';
-import Contactcards from '../Contactcards';
-
+import Contacthead from '../Contacthead';
+import GoogleMap from '../Mapcard';
 function Contactus() {
   return (
    <>
-     <Contactcards/>
+     <Contacthead/>
+     <GoogleMap/>
    </> 
   );
 
