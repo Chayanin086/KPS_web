@@ -142,8 +142,11 @@
   padding: 14px 20px;
   border: 3px solid rgb(0, 0, 0);
   transition: all 0.3s ease-out;
+<<<<<<< HEAD
 
 }
 .Percard:hover{
   box-shadow: 0 0 6px 4px rgb(0, 0, 0);
+=======
+>>>>>>> 8c91fc76965c1bb32fe871028df87876fb15fe1d
 }
