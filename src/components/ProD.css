@@ -1,6 +1,7 @@
 .backpro {
     padding: 4rem;
-    background: rgb(8, 1, 70);
+    /* background: rgb(2, 71, 88); */
+    background:navy
 }
   
 .backpro>h1 {
@@ -66,7 +67,7 @@
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
-    color: #fff;
+    color: rgb(255, 255, 255);
     background-color: #1f98f4;
     box-sizing: border-box;
 }
@@ -132,4 +133,7 @@
         border: 1px solid rgb(255, 255, 255);
         transition: all 0.3s ease-out;
     
+}
+.Proo:hover{
+    box-shadow: 0 0 5px 2px rgb(255, 255, 255);
 }

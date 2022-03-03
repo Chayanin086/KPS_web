@@ -1,17 +1,28 @@
 import React from 'react';
 import ProductItem from './ProductItem';
 import './Productcards.css';
+import _, { each } from 'lodash'
 
-function Productcards() {
+function Productcards({productData}) {
   return (
     <div className='product'>
       <h1>PRODUCT</h1>
       <div className='product__container'>
         <div className='product__wrapper'>
           <ul className='product__items'>
-            <ProductItem
+            {_.map(productData?.rows,(eachProduct)=>(
+               <ProductItem
+               src={eachProduct?.images?.[0]?.url}
+               text={eachProduct?.name}
+               label='Relay'
+               path='/product'
+             />
+            ))}
+
+            {/* <ProductItem
               src='images/relay0003.jpg'
-              text='SHOP NOW! ฿999'
+              text='ชื่อสินค้า:sfsdfsdfs
+              ราคา: 10'
               label='Relay'
               path='/product'
             />
@@ -26,7 +37,7 @@ function Productcards() {
               text='SHOP NOW! ฿999'
               label='Worm gear'
               path='/product'
-            />
+            /> */}
             <ProductItem
               src='images/Hydrulic Valves.jpg'
               text='SHOP NOW! ฿999'

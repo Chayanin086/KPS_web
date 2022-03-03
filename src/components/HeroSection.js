@@ -10,14 +10,14 @@ function HeroSection() {
       <h1>Welcome</h1>
       <h1>to</h1>
       <h1>KPS automation</h1>
-      <p>What are you waiting for?</p>
+      <p>ศูนย์รวมสินค้าAutoMation</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          ผลงาน
         </Button>
         <Button
           className='btns'
@@ -25,7 +25,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          ตัวอย่าง <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

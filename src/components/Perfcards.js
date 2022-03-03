@@ -10,44 +10,44 @@ function Perfcards() {
         <div className='performance__wrapper'>
           <ul className='performance__items'>
             <PerfItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/perfomances'
+              src='images/ทดสอบ2.png'
+              text='ผจญภัยแดนสนธยา'
+              label='น้ำตกชื่นใจ'
+              path='/perfomance'
             />
             <PerfItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              src='images/ทดสอบ2.png'
+              text='ข้อความคร่าวๆ'
               label='Luxury'
-              path='/perfomances'
+              path='/perfomance'
             />
           </ul>
           <ul className='performance__items'>
             <PerfItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              src='images/ทดสอบ.jpg'
+              text='ข้ข้อความคร่าวๆยาวววววววววววววววววววววววววววววววววววว'
               label='Mystery'
-              path='/perfomances'
+              path='/perfomance'
             />
             <PerfItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              src='images/ทดสอบ.jpg'
+              text='ข้อความคร่าวๆยาวววววววววววววววววววววววววววววววววววว'
               label='Adventure'
-              path='/perfomances'
+              path='/perfomance'
             />
           </ul>
           <ul className='performance__items'>
             <PerfItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              src='images/ทดสอบ2.png'
+              text='ข้อความคร่าวๆยาวววววววววววววววววววววววววววววววววววว'
               label='Mystery'
-              path='/perfomances'
+              path='/perfomance'
             />
             <PerfItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              src='images/ทดสอบ2.png'
+              text='ข้อความคร่าวๆยาวววววววววววววววววววววววววววววววววววว'
               label='Adrenaline'
-              path='/perfomances'
+              path='/perfomance'
             />
           </ul>
         </div>
