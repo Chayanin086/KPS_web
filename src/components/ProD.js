@@ -15,33 +15,32 @@ function ProD() {
               src='images/relay0003.jpg'
               text='SHOP NOW! ฿999'
               label='Relay'
-              path='/product'
+              path='/products'
             />
             <ProDItem
               src='images/Timer.png'
               text='SHOP NOW! ฿999'
               label='Timer'
-              path='/product'
+              path='/products'
             />
             <ProDItem
               src='images/เกียทดรอบ.jpg'
               text='SHOP NOW! ฿999'
               label='Worm gear'
-              path='/product'
+              path='/products'
             />
             <ProDItem
               src='images/Hydrulic Valves.jpg'
               text='SHOP NOW! ฿999'
               label='Hydrulic Valves'
-              path='/product'
+              path='/products'
             />
-
           </ul>
           <li>
           
           <Link
           className='Proo' 
-            to='/performance'
+            to='/products'
           >
             สินค้าเพิ่มเติม
           </Link>
