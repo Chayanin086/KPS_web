@@ -1,5 +1,5 @@
 .contact-container {
-    background-color: #ffffff;
+    background-color: #dcfaff;
     padding: 0rem 0 3rem 0;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@
     font-size: 20px;
   } */
   
-  .contact-input {
+  /* .contact-input {
     padding: 8px 20px;
     border-radius: 2px;
     margin-right: 10px;
@@ -44,7 +44,7 @@
     font-size: 18px;
     margin-bottom: 16px;
     border: 1px solid rgb(0, 0, 0);
-  }
+  } */
   
   .contact-links {
     width: 100%;

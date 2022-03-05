@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding: 0.5rem;
   background: rgb(232, 247, 250);
 }
 
@@ -9,6 +9,21 @@
   font-size: 40px;
   margin-top: -40px;
   text-align: center;
+  text-decoration:underline;
+  display: block;
+        text-align: center;
+        margin: 2rem auto;
+        border-radius: 20px;
+        width: 40%;
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: #1f98f4;
+        color: rgb(255, 239, 239);
+        padding: 14px 20px;
+        border: 1px solid rgb(189, 225, 255);
+        transition: all 0.3s ease-out;
+  
+  
 }
 
 .cards > p {
@@ -30,7 +45,7 @@
 
 .cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  margin: 30px 0 45px;
 }
 
 .cards__items {
@@ -142,11 +157,8 @@
   padding: 14px 20px;
   border: 3px solid rgb(0, 0, 0);
   transition: all 0.3s ease-out;
-<<<<<<< HEAD
-
 }
 .Percard:hover{
   box-shadow: 0 0 6px 4px rgb(0, 0, 0);
-=======
->>>>>>> 8c91fc76965c1bb32fe871028df87876fb15fe1d
+
 }

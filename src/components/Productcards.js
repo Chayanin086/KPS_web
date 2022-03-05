@@ -6,7 +6,7 @@ import _, { each } from 'lodash'
 function Productcards({productData}) {
   return (
     <div className='product'>
-      <h1>PRODUCT</h1>
+      <h1>สินค้า</h1>
       <div className='product__container'>
         <div className='product__wrapper'>
           <ul className='product__items'>
@@ -38,12 +38,12 @@ function Productcards({productData}) {
               label='Worm gear'
               path='/product'
             /> */}
-            <ProductItem
+            {/* <ProductItem
               src='images/Hydrulic Valves.jpg'
               text='SHOP NOW! ฿999'
               label='Hydrulic Valves'
               path='/product'
-            />
+            /> */}
           </ul>
           <ul className='product__items'>
             <ProductItem

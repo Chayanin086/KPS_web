@@ -3,7 +3,7 @@ import '../../App.css';
 import Productcards from '../Productcards';
 import api from "../../utils/api";
 import _ from "lodash"
-
+import Footer from '../Footer';
 
 function Products() {
  
@@ -33,12 +33,13 @@ function Products() {
     
    <>
      <Productcards productData = {productData}/>
+     <Footer />
      {/* {_.map(productData?.rows, (eachProduct) => (
     <div>
       {eachProduct?.name} {eachProduct?.price}
       <img src={eachProduct?.images?.[0]?.url} />
     </div> */}
-))}
+{/* ))} */}
     
    </> 
   

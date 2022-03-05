@@ -5,18 +5,18 @@ import PerfItem from './PerfItem';
 function Perfcards() {
   return (
     <div className='perfomance'>
-      <h1>PERFORMANCE</h1>
+      <h1>ผลงาน</h1>
       <div className='performance__container'>
         <div className='performance__wrapper'>
           <ul className='performance__items'>
             <PerfItem
-              src='images/ทดสอบ2.png'
+              src='images/GG7.png'
               text='ผจญภัยแดนสนธยา'
               label='น้ำตกชื่นใจ'
               path='/perfomance'
             />
             <PerfItem
-              src='images/ทดสอบ2.png'
+              src='images/GG7.png'
               text='ข้อความคร่าวๆ'
               label='Luxury'
               path='/perfomance'
@@ -24,28 +24,28 @@ function Perfcards() {
           </ul>
           <ul className='performance__items'>
             <PerfItem
-              src='images/ทดสอบ.jpg'
-              text='ข้ข้อความคร่าวๆยาวววววววววววววววววววววววววววววววววววว'
+              src='images/GG7.png'
+              text='ข้อความคร่าวๆยาว.................................'
               label='Mystery'
               path='/perfomance'
             />
             <PerfItem
-              src='images/ทดสอบ.jpg'
-              text='ข้อความคร่าวๆยาวววววววววววววววววววววววววววววววววววว'
+              src='images/GG7.png'
+              text='ข้อความคร่าวๆยาว..................................................................'
               label='Adventure'
               path='/perfomance'
             />
           </ul>
           <ul className='performance__items'>
             <PerfItem
-              src='images/ทดสอบ2.png'
-              text='ข้อความคร่าวๆยาวววววววววววววววววววววววววววววววววววว'
+              src='images/GG7.png'
+              text='ข้อความคร่าวๆยาว..................................................................'
               label='Mystery'
               path='/perfomance'
             />
             <PerfItem
-              src='images/ทดสอบ2.png'
-              text='ข้อความคร่าวๆยาวววววววววววววววววววววววววววววววววววว'
+              src='images/GG7.png'
+              text='ข้อความคร่าวๆยาว..................................................................'
               label='Adrenaline'
               path='/perfomance'
             />

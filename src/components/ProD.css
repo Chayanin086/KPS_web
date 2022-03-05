@@ -1,7 +1,12 @@
 .backpro {
-    padding: 4rem;
+    padding: 2rem;
     /* background: rgb(2, 71, 88); */
-    background:navy
+    /* background:#003b73 */
+    /* background:Navy; */
+    background:url("../images/GG6.gif");
+    
+    
+    
 }
   
 .backpro>h1 {
@@ -38,8 +43,8 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    box-shadow: 0 15px 30px rgba(255, 255, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;
@@ -129,6 +134,7 @@
         font-size: 1.5rem;
         background-color: transparent;
         color: rgb(255, 255, 255);
+        box-shadow: 0 15px 30px rgba(255, 255, 255, 0.17);
         padding: 14px 20px;
         border: 1px solid rgb(255, 255, 255);
         transition: all 0.3s ease-out;
