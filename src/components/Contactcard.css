@@ -21,7 +21,7 @@
   
   .contact-subscription > p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif,'Designil Thai Font';
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Sarabun';
   }
   
   .contact-subscription-heading {
@@ -51,6 +51,7 @@
     max-width: 1000px;
     display: flex;
     justify-content: center;
+    font-family: 'Sarabun';
   }
   
   .contact-link-wrapper {
@@ -73,21 +74,28 @@
   /* ระยะห่างที่อยู่กับข้อความ */
   .contact-link-items h2 {
     margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit',/*'Sarabun'*/;
   }
   
   .contact-link-items > h2 {
     color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Sarabun';
   }
   
   .contact-link-items a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin-bottom: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Sarabun';
   }
   .contact-link-items > p {
     color: rgb(0, 0, 0);
     font-size: large;
     line-height: 1.5;
+    
   }
   
   .contact-link-items a:hover {

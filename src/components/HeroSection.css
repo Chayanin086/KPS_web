@@ -21,7 +21,9 @@ video {
 .hero-container > h1 {
   color: #fff;
   font-size: 90px;
-  line-height: 1;
+  line-height: 1.1;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
 }
 
 .hero-container > p {
@@ -29,7 +31,8 @@ video {
   color: #fff;
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+    'Lucida Sans', Arial, sans-serif,'Sarabun';
+    
 }
 
 .hero-btns {

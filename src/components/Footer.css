@@ -1,10 +1,11 @@
 .footer-container {
     background-color: #303030;
-    padding: 0rem 0 3rem 0;
+    padding: 2rem 0 3rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
   
   .footer-subscription {
@@ -21,13 +22,14 @@
   
   .footer-subscription > p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif,'Designil Thai Font';
+      'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Sarabun';
   }
   
   .footer-subscription-heading {
     margin-bottom: 15px;
     font-size: 35px;
     color: #ffffff;
+    
   }
   
   /* .footer-subscription-text {
@@ -62,9 +64,10 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 0px;
+    
     text-align: right;
     color: #ffffff;
-    width:450px;
+    width: 460px;
     
     box-sizing: border-box;
     float: right;
@@ -77,14 +80,23 @@
   
   .footer-link-items > h2 {
     color: rgb(252, 252, 252);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
   }
   
-  .footer-link-items a {
+  /* .footer-link-items a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-bottom: 0.5rem;
-  }
+  } */
   .footer-link-items > p {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
+  }
+  .footer-link-items > a {
     color: rgb(255, 255, 255);
     font-size: large;
     line-height: 1.5;
@@ -112,6 +124,8 @@
   .social-media {
     max-width: 1000px;
     width: 100%;
+    
+    
   }
   
   .social-media-wrap {
@@ -142,9 +156,14 @@
     margin-bottom: 16px;
   }
   
-  .website-rights {
-    color: #fff;
-    margin-bottom: 16px;
+  .op{
+    line-height:  110px;
+    color: rgb(255, 255, 255);
+    margin-bottom: -50px;
+    text-indent: 1.59cm
+
+    
+    
   }
   
   @media screen and (max-width: 820px) {

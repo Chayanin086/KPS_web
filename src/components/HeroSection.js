@@ -10,22 +10,22 @@ function HeroSection() {
       <h1>ยินดีต้อนรับ</h1>
       <h1>สู่</h1>
       <h1>KPS automation</h1>
-      <p>ศูนย์รวมสินค้าAutoMation</p>
+      <p>ศูนย์รวมสินค้าAutomation</p>
       <div className='hero-btns'>
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           ผลงาน
-        </Button>
+        </Button> */}
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          ตัวอย่าง <i className='far fa-play-circle' />
+          ผลงาน <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

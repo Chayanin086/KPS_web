@@ -47,6 +47,7 @@
   
   .nav-item {
     height:80px;
+    
   }
   
   .nav-links {
@@ -56,6 +57,8 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
   }
   
   .nav-links:hover {

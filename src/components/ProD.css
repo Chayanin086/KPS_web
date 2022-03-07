@@ -3,7 +3,7 @@
     /* background: rgb(2, 71, 88); */
     /* background:#003b73 */
     /* background:Navy; */
-    background:url("../images/GG6.gif");
+    background:url("../images/GGG.gif");
     
     
     
@@ -12,6 +12,8 @@
 .backpro>h1 {
     text-align: center;
     color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
 }
   
 .Prod__container {
@@ -90,6 +92,8 @@
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
 }
   
 .Prod__item__img:hover {
@@ -104,6 +108,8 @@
     color: #ffffff;
     font-size: 18px;
     line-height: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
 }
   
 @media only screen and (min-width: 1200px) {
@@ -138,6 +144,8 @@
         padding: 14px 20px;
         border: 1px solid rgb(255, 255, 255);
         transition: all 0.3s ease-out;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
     
 }
 .Proo:hover{

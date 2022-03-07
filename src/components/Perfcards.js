@@ -12,13 +12,13 @@ function Perfcards() {
             <PerfItem
               src='images/GG7.png'
               text='ผจญภัยแดนสนธยา'
-              label='น้ำตกชื่นใจ'
+              label='ชื่อผลงาน'
               path='/perfomance'
             />
             <PerfItem
               src='images/GG7.png'
               text='ข้อความคร่าวๆ'
-              label='Luxury'
+              label='ชื่อผลงาน'
               path='/perfomance'
             />
           </ul>
@@ -26,13 +26,13 @@ function Perfcards() {
             <PerfItem
               src='images/GG7.png'
               text='ข้อความคร่าวๆยาว.................................'
-              label='Mystery'
+              label='ชื่อผลงาน'
               path='/perfomance'
             />
             <PerfItem
               src='images/GG7.png'
               text='ข้อความคร่าวๆยาว..................................................................'
-              label='Adventure'
+              label='ชื่อผลงาน'
               path='/perfomance'
             />
           </ul>
@@ -40,13 +40,13 @@ function Perfcards() {
             <PerfItem
               src='images/GG7.png'
               text='ข้อความคร่าวๆยาว..................................................................'
-              label='Mystery'
+              label='ชื่อผลงาน'
               path='/perfomance'
             />
             <PerfItem
               src='images/GG7.png'
               text='ข้อความคร่าวๆยาว..................................................................'
-              label='Adrenaline'
+              label='ชื่อผลงาน'
               path='/perfomance'
             />
           </ul>

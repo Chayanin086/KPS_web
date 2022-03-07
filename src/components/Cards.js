@@ -11,7 +11,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
             src='images/ผลงาน1.png'
-            text='ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์ คือ ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์'
+            text='ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์ คือ ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์....................................'
             label='ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์'
             path='/ระบบตรวจ'
 
@@ -19,7 +19,7 @@ function Cards() {
             <CardItem
               src='images/GG7.png'
               text='ข้อความคร่าวๆ'
-              label='Luxury'
+              label='ชื่อผลงาน'
               path ='/performance'
 
             />
@@ -27,14 +27,14 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/GG7.png'
-              text='ข้อความคร่าวๆ'
-              label='Mystery'
+              text='ข้อความคร่าวๆ                    '
+              label='ชื่อผลงาน'
               path='/performance'
             />
             <CardItem
               src='images/GG7.png'
               text='ข้อความคร่าวๆ'
-              label='Adventure'
+              label='ชื่อผลงาน'
               path='/performance'
             />
             {/* <CardItem

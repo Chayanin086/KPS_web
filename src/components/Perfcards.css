@@ -10,6 +10,8 @@
     text-align: center;
     /* background-color: rgb(38, 9, 141); */
     background:url("../images/GGGGG.gif");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
 }
   
 .performance__container {
@@ -102,6 +104,8 @@
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
 }
   
 @media only screen and (min-width: 1200px) {
