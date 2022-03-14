@@ -51,6 +51,7 @@ function Cards() {
           <Link
             to='/performance'
             className='Percard'
+            target='_top'
           >
             ผลงานเพิ่มเติม
           </Link>
