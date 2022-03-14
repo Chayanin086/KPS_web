@@ -22,7 +22,7 @@ function Contactcard() {
                 <p>เค.พี.เอส. ออโตเมชั่น    90/1   ม.4 </p>
                 <p>ต.ช้างขวา อ.กาญจนดิษฐ์ จ. สุราษฎร์ธานี </p>
                 <p>84160</p>
-                <a class='op' href='https://www.coe.psu.ac.th/'>KPS AUTOMATION © 2022 is operated by coe.psu.ac.th</a>
+                {/* <a class='op' href='https://www.coe.psu.ac.th/'>KPS AUTOMATION © 2022 is operated by coe.psu.ac.th</a> */}
 
               </div>
               <div class='contact-link-items'>
