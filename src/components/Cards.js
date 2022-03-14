@@ -47,14 +47,14 @@ function Cards() {
           </ul>
           
         </div>
-        <li>
-            <Link
-               to='/performance'
-               className='Percard'
-              >
-              ผลงานเพิ่มเติม
-            </Link>
-        </li>
+        <div>
+          <Link
+            to='/performance'
+            className='Percard'
+          >
+            ผลงานเพิ่มเติม
+          </Link>
+        </div>
       </div>
     </div>
   );
