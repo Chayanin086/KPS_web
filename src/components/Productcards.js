@@ -9,12 +9,21 @@ function Productcards({productData}) {
       <h1>สินค้า</h1>
       <div className='product__container'>
         <div className='product__wrapper'>
+         
+          
           <ul className='product__items'>
             {_.map(productData?.rows,(eachProduct)=>(
                <ProductItem
                src={eachProduct?.images?.[0]?.url}
-               text={eachProduct?.name}
-               label='Relay'
+               label={eachProduct?.name}
+               text={eachProduct?.price}
+               text1={eachProduct?.inventory}
+               
+               
+
+               
+               
+               
                path='/product'
              />
             ))}
@@ -45,7 +54,8 @@ function Productcards({productData}) {
               path='/product'
             /> */}
           </ul>
-          <ul className='product__items'>
+          
+          {/* <ul className='product__items'>
             <ProductItem
               src='images/Hydrulic Valves.jpg'
               text='SHOP NOW! ฿999'
@@ -70,8 +80,8 @@ function Productcards({productData}) {
               label='Relay'
               path='/product'
             />
-          </ul>
-          <ul className='product__items'>
+          </ul> */}
+          {/* <ul className='product__items'>
             <ProductItem
               src='images/relay0003.jpg'
               text='SHOP NOW! ฿999'
@@ -96,8 +106,8 @@ function Productcards({productData}) {
               label='Hydrulic Valves'
               path='/product'
             />
-          </ul>
-          <ul className='product__items'>
+          </ul> */}
+          {/* <ul className='product__items'>
             <ProductItem
               src='images/Hydrulic Valves.jpg'
               text='SHOP NOW! ฿999'
@@ -122,7 +132,9 @@ function Productcards({productData}) {
               label='Relay'
               path='/product'
             />
-          </ul>
+          </ul> */}
+         
+          
         </div>
       </div>
     </div>

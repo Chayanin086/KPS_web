@@ -6,6 +6,7 @@ function ProDItem(props) {
     <>
       <li className='Prod__item'>
         <Link className='Prod__item__link' to={props.path}>
+          
           <figure className='Prod__item__pic-wrap' data-category={props.label}>
             <img
               className='Prod__item__img'

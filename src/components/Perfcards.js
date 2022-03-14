@@ -45,7 +45,7 @@ function Perfcards() {
             />
             <PerfItem
               src='images/GG7.png'
-              text='ข้อความคร่าวๆยาว..................................................................'
+              text='ข้อความคร่าวๆยาว'
               label='ชื่อผลงาน'
               path='/perfomance'
             />
