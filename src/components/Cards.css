@@ -11,21 +11,20 @@
   text-align: center;
   text-decoration:underline;
   display: block;
-        text-align: center;
-        margin: 2rem auto;
-        border-radius: 20px;
-        width: 40%;
-        text-decoration: none;
-        font-size: 1.5rem;
-        background-color: #1f98f4;
-        color: rgb(255, 239, 239);
-        padding: 14px 20px;
-        border: 1px solid rgb(189, 225, 255);
-        transition: all 0.3s ease-out;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-        'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
-  
-  
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 20px;
+  width: 40%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: #1f98f4;
+  color: rgb(255, 239, 239);
+  padding: 14px 20px;
+  border: 1px solid rgb(189, 225, 255);
+  transition: all 0.3s ease-out;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
+   
 }
 
 .cards > p {

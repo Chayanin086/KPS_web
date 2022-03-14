@@ -160,10 +160,8 @@
     line-height:  110px;
     color: rgb(255, 255, 255);
     margin-bottom: -50px;
-    text-indent: 1.59cm
-
-    
-    
+    text-indent: 0.35cm;
+    padding: 2rem 0 1rem ;
   }
   
   @media screen and (max-width: 820px) {

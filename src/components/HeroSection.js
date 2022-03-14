@@ -10,7 +10,7 @@ function HeroSection() {
       <h1>ยินดีต้อนรับ</h1>
       <h1>สู่</h1>
       <h1>KPS automation</h1>
-      <p>ศูนย์รวมสินค้าAutomation</p>
+      <p>ศูนย์รวมสินค้า Automation</p>
       <div className='hero-btns'>
         {/* <Button
           className='btns'
