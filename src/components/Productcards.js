@@ -16,7 +16,7 @@ function Productcards({productData}) {
                <ProductItem
                src={eachProduct?.images?.[0]?.url}
                label={eachProduct?.name}
-               text={eachProduct?.price}
+               text={eachProduct?.price} //ราคา
                text1={eachProduct?.inventory}
                
                
