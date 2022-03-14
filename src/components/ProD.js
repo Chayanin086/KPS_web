@@ -41,6 +41,7 @@ function ProD() {
           <Link
           className='Proo' 
             to='/products'
+            target='_top'
           >
             สินค้าเพิ่มเติม
           </Link>

@@ -14,12 +14,14 @@ function Perfcards() {
               text='ผจญภัยแดนสนธยา'
               label='ชื่อผลงาน'
               path='/perfomance'
+              target='_top'
             />
             <PerfItem
               src='images/GG7.png'
               text='ข้อความคร่าวๆ'
               label='ชื่อผลงาน'
               path='/perfomance'
+              target='_top'
             />
           </ul>
           <ul className='performance__items'>
@@ -28,6 +30,7 @@ function Perfcards() {
               text='ข้อความคร่าวๆยาว.................................'
               label='ชื่อผลงาน'
               path='/perfomance'
+              target='_top'
             />
             <PerfItem
               src='images/GG7.png'

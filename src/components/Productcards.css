@@ -21,11 +21,13 @@
     width: 90%;
     margin: 0 auto;
     justify-content: center;
+    
 }
   
 .product__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    
     
     
 }
@@ -40,6 +42,8 @@
     margin: 0 1rem;
     margin-bottom:2rem;
     border-radius: 10px;
+    
+    
 }
   
 .product__item__link {
@@ -79,6 +83,8 @@
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
 }
   
 .product__item__img {
@@ -112,6 +118,8 @@
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
     
 }
   
@@ -126,6 +134,7 @@
       
       display: grid;
       grid-template-columns: 250px 250px 250px 250px 250px;
+      
     }
 }
   

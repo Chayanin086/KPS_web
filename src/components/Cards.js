@@ -21,6 +21,7 @@ function Cards() {
               text='ข้อความคร่าวๆ'
               label='ชื่อผลงาน'
               path ='/performance'
+              target='_top'
 
             />
           </ul>
@@ -30,12 +31,14 @@ function Cards() {
               text='ข้อความคร่าวๆ                    '
               label='ชื่อผลงาน'
               path='/performance'
+              target='_top'
             />
             <CardItem
               src='images/GG7.png'
               text='ข้อความคร่าวๆ'
               label='ชื่อผลงาน'
               path='/performance'
+              target='_top'
             />
             {/* <CardItem
               src='images/ทดสอบ2.png'

@@ -43,6 +43,7 @@ function Navbar() {
             <li className='nav-item'>
               <Link
                 to='/products'
+                target='_top'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -52,6 +53,7 @@ function Navbar() {
             <li className='nav-item'>
               <Link
                 to='/performance'
+                target='_top'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -61,6 +63,7 @@ function Navbar() {
             <li className='nav-item'>
               <Link
                 to='/contact'
+                target='_top'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -71,6 +74,7 @@ function Navbar() {
             <li>
               <Link
                 to='/sign-up'
+                
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
