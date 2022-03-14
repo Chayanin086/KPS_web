@@ -11,6 +11,7 @@ video {
   height: 90vh;
   width: 100%;
   display: flex;
+  font-weight: 600;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -31,12 +32,20 @@ video {
   color: #fff;
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif,'Kanit';
-    
+    'Lucida Sans', Arial, sans-serif,'Kanit';   
 }
 
 .hero-btns {
   margin-top: 32px;
+}
+
+.per {
+  font-family:'Kanit';
+  font-weight: 900;
+}
+
+.btn--primary {
+  border-radius: 10px;
 }
 
 .hero-btns .btn {

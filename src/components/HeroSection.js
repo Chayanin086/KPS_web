@@ -25,7 +25,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          ผลงาน <i className='far fa-play-circle' />
+          <p className='per'>ผลงาน   <i className='far fa-play-circle' /></p>
         </Button>
       </div>
     </div>

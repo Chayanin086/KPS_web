@@ -4,7 +4,7 @@ import './Contacthead.css';
 function Contacthead() {
   return (
     <div className='contactus'>
-      <h1>CONTACT US</h1>      
+      <h1>ช่องทางการติดต่อ</h1>      
     </div>
   );
 }

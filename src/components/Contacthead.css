@@ -4,11 +4,13 @@
 }
 
 .contactus > h1 {
-    padding: 0.5rem;
+    padding: 1rem;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     background-color: rgb(38, 9, 141);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
 }
 
 .contactus > p {

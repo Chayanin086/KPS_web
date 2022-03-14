@@ -79,6 +79,7 @@
   
   .footer-link-items > h2 {
     color: rgb(252, 252, 252);
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
   }
@@ -90,15 +91,17 @@
   } */
   .footer-link-items > p {
     color: rgb(255, 255, 255);
-    font-size: large;
     line-height: 1.5;
+    font-size: 18px;
+    font-weight: 600;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
   }
   .footer-link-items > a {
     color: rgb(255, 255, 255);
-    font-size: large;
-    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.5;   
   }
   
   .footer-link-items a:hover {
@@ -122,9 +125,7 @@
   
   .social-media {
     max-width: 1000px;
-    width: 100%;
-    
-    
+    width: 100%;   
   }
   
   .social-media-wrap {
@@ -159,6 +160,7 @@
     line-height:  110px;
     color: rgb(255, 255, 255);
     margin-bottom: -50px;
+    font-size: 10px;
     padding: 4rem 0 2rem ;
   }
   

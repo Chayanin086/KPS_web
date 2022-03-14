@@ -21,7 +21,7 @@
   
   .contact-subscription > p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Sarabun';
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
   }
   
   .contact-subscription-heading {
@@ -62,40 +62,45 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0px;
+    margin-left: 5cm;
+    margin-right: -2.5cm;   
     text-align: right;
     color: #000000;
-    width:450px;
-    
+    width: 460px;   
     box-sizing: border-box;
     float: right;
+    font-family:'Kanit';
   }
 
   /* ระยะห่างที่อยู่กับข้อความ */
-  .contact-link-items h2 {
+  .contact-link-items > h2 {
     margin-bottom: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit',/*'Sarabun'*/;
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
   }
   
   .contact-link-items > h2 {
     color: rgb(0, 0, 0);
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Sarabun';
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
   }
-  
-  .contact-link-items a {
+
+  .contact-link-items > a {
     color: rgb(0, 0, 0);
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Sarabun';
+    font-size: large;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 800;
   }
+
   .contact-link-items > p {
     color: rgb(0, 0, 0);
     font-size: large;
     line-height: 1.5;
-    
+    font-family:'Kanit';
+    font-size: 18px;
+    font-weight: 990;
   }
   
   .contact-link-items a:hover {
