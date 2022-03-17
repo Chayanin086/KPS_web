@@ -4,12 +4,12 @@
 }
 
 .perfomance > h1 {
-    padding: 4rem;
+    padding: 3rem;
     color: rgb(255, 255, 255);
     font-size: 40px;
     text-align: center;
-    /* background-color: rgb(38, 9, 141); */
-    background:url("../images/GGGGG.gif");
+    background-color: rgb(38, 9, 141);
+    /* background:url("../images/GGGGG.gif"); */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
 }
@@ -75,6 +75,8 @@
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
 }
   
 .performance__item__img {
