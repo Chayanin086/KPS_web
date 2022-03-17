@@ -18,7 +18,7 @@ function Productcards({productData}) {
                label={eachProduct?.name}
                text={eachProduct?.price} //ราคา
                text1={eachProduct?.inventory}
-               
+              
                
 
                
@@ -133,6 +133,14 @@ function Productcards({productData}) {
               path='/product'
             />
           </ul> */}
+          <div className='front'>
+          <a   href='https://shop.kps.eonlineshop.net/productList' target="_blank">
+            
+            สั่งซื้อสินค้า
+            คลิกที่นี่ 
+
+          </a>
+          </div>
          
           
         </div>

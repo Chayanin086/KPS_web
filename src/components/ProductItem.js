@@ -20,6 +20,7 @@ function ProductItem(props) {
           <div className='product__item__info'>
             <h5 className='product__item__text'>ราคา {props.text} บาท</h5>
             <h5 className='product__item__text'>เหลือ  {props.text1} ชิ้น</h5>
+
           </div>
     
         </Link>
