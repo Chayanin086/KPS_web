@@ -7,8 +7,7 @@ function ProductItem(props) {
     <>
     
       <li className='product__item'>
-        <Link className='product__item__link' to={props.path}>
-          
+        <a className='product__item__link' href={`https://shop.kps.eonlineshop.net/product/${props.path}`}>
           <figure className='product__item__pic-wrap' data-category={props.label}>
           
             <img
@@ -20,10 +19,8 @@ function ProductItem(props) {
           <div className='product__item__info'>
             <h5 className='product__item__text'>ราคา {props.text} บาท</h5>
             <h5 className='product__item__text'>เหลือ  {props.text1} ชิ้น</h5>
-
           </div>
-    
-        </Link>
+        </a>
       </li>
     
     </>

@@ -10,11 +10,11 @@ function Perfcards() {
         <div className='performance__wrapper'>
           <ul className='performance__items'>
             <PerfItem
-              src='images/GG7.png'
-              text='ผจญภัยแดนสนธยา'
-              label='ชื่อผลงาน'
-              path='/perfomance'
-              target='_top'
+            src='images/ผลงาน1.png'
+            text='ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์ คือ ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์....................................'
+            label='ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์'
+            path='/ระบบตรวจ'
+            target='_top'
             />
             <PerfItem
               src='images/GG7.png'

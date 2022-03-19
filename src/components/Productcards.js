@@ -3,12 +3,27 @@ import ProductItem from './ProductItem';
 import './Productcards.css';
 import _, { each } from 'lodash'
 
+import Button from '@mui/material/Button';
+import { useState } from 'react';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle'
+import { Box } from '@mui/system';
+import Counter from './Counter';
+
 function Productcards({productData}) {
+
+  // const open = () => {
+  //   window.location.href =` https://shop.kps.eonlineshop.net/product/${props.id._id}`
+//  }
   return (
     <div className='product'>
       <h1>สินค้า</h1>
       <div className='product__container'>
         <div className='product__wrapper'>
+
          
           
           <ul className='product__items'>
@@ -18,15 +33,10 @@ function Productcards({productData}) {
                label={eachProduct?.name}
                text={eachProduct?.price} //ราคา
                text1={eachProduct?.inventory}
-              
-               
-
-               
-               
-               
-               path='/product'
+               path={`/${eachProduct?.id}`}
              />
             ))}
+
 
             {/* <ProductItem
               src='images/relay0003.jpg'
@@ -147,6 +157,7 @@ function Productcards({productData}) {
       </div>
     </div>
   );
+  
 }
   
 export default Productcards;

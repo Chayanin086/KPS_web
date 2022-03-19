@@ -1,4 +1,5 @@
 import React from "react";
+import './Mapcard.css';
 
 export default function GoogleMap({ info }) {
   return (
@@ -14,6 +15,7 @@ export default function GoogleMap({ info }) {
           style={{ border: "0px" }}
           aria-hidden="false"
           className="mx-auto pt-2"
+          
         ></iframe>
       </div>
     </div>
