@@ -3,10 +3,11 @@ import { MenuItems } from './MenuItems';
 import './Dropdown.css';
 import { Link } from 'react-router-dom';
 
-function Dropdown() {
+function Dropdown(props) {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+  
   return (
     <>
       <ul
@@ -16,9 +17,9 @@ function Dropdown() {
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <Link
+              <a
                 className={item.cName}
-                to={item.path}
+                href={`https://shop.kps.eonlineshop.net/productList/`} target='_blank'
                 
                 
                 
@@ -27,7 +28,7 @@ function Dropdown() {
                   
                 {item.title}
                 
-              </Link>
+              </a>
 
 
             </li>

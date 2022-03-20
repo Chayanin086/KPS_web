@@ -7,7 +7,7 @@ function ProductItem(props) {
     <>
     
       <li className='product__item'>
-        <a className='product__item__link' href={`https://shop.kps.eonlineshop.net/product/${props.path}`}>
+        <a className='product__item__link' href={`https://shop.kps.eonlineshop.net/product/${props.path}`} target='_blank'>
           <figure className='product__item__pic-wrap' data-category={props.label}>
           
             <img
