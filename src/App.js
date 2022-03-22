@@ -10,7 +10,7 @@ import api from "./utils/api";
 import Detail  from './components/page/Detail';
 
 function App() {
-   const { data} = api.get("https://admin.kps.eonlineshop.net/api/v1/product");
+   const {data} = api.get("https://admin.kps.co.th/api/v1/product");
   return (
     <>
       <Router>
