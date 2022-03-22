@@ -10,7 +10,7 @@ export default function GoogleMap({ info }) {
           src={
             "https://www.google.com/maps/embed/v1/place?key=AIzaSyCW6HXYlqqnvyEVcgjXfdFVZvHxz7l-btQ&q=+ ตำบลช้างขวา อ.กาญจนดิษฐ์ จ. สุราษฎร์ธานี    "
           }
-          width="100%"
+          width="98%"
           height="400"
           style={{ border: "0px" }}
           aria-hidden="false"

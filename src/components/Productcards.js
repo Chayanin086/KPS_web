@@ -3,15 +3,15 @@ import ProductItem from './ProductItem';
 import './Productcards.css';
 import _, { each } from 'lodash'
 
-import Button from '@mui/material/Button';
-import { useState } from 'react';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
-import DialogTitle from '@mui/material/DialogTitle'
-import { Box } from '@mui/system';
-import Counter from './Counter';
+// import Button from '@mui/material/Button';
+// import { useState } from 'react';
+// import Dialog from '@mui/material/Dialog';
+// import DialogActions from '@mui/material/DialogActions';
+// import DialogContent from '@mui/material/DialogContent';
+// import DialogContentText from '@mui/material/DialogContentText';
+// import DialogTitle from '@mui/material/DialogTitle'
+// import { Box } from '@mui/system';
+// import Counter from './Counter';
 
 function Productcards({productData}) {
 
@@ -23,9 +23,7 @@ function Productcards({productData}) {
       <h1>สินค้า</h1>
       <div className='product__container'>
         <div className='product__wrapper'>
-
-         
-          
+                   
           <ul className='product__items'>
             {_.map(productData?.rows,(eachProduct)=>(
                <ProductItem
@@ -144,7 +142,7 @@ function Productcards({productData}) {
             />
           </ul> */}
           <div className='front'>
-          <a   href='https://shop.kps.eonlineshop.net/productList' target="_blank">
+          <a   href='https://shop.kps.co.th/productList' target="_blank">
             
             สั่งซื้อสินค้า
             คลิกที่นี่ 

@@ -3,6 +3,7 @@ import './Cards.css';
 import CardItem from './CardItem';
 import { Link } from 'react-router-dom';
 import {mockupData} from '../datas/pages'
+
 function Cards() {
   return (
     <div className='cards'>
