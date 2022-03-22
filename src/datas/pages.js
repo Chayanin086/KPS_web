@@ -6,7 +6,7 @@ export const mockupData = [
         id:'page1',
         name:"ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์",
         image:"/images/%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%991.png",
-        except: "ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์ คือ ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์...",
+        except: "ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์ คือ ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์...",//ข้อความย่อย
         fullDetail1: "<h1>What is Lorem Ipsum?</h1> <br/>Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         path:'/detail/page1'
     },
