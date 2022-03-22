@@ -66,7 +66,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/Products'
+              to='/products'
               className='nav-links'
               onClick={closeMobileMenu}
               target='_top'
