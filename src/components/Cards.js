@@ -2,14 +2,29 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import { Link } from 'react-router-dom';
+import {mockupData} from '../datas/pages'
 function Cards() {
   return (
     <div className='cards'>
       <h1>ผลงาน</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
+          {mockupData.map((item, key)=>{
+
+          })}
+          <div className='grid grid-cols-2 gap-10'>
+          {mockupData.slice(0, 4).map((item, key)=>{
+              return (
+                <CardItem
+            src={item.image}
+            text={item.except}
+            label={item.name}
+            path={item.path}
+
+            />
+              )
+          })}
+            {/* <CardItem
             src='images/ผลงาน1.png'
             text='ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์ คือ ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์....................................'
             label='ระบบตรวจจับการสั่นสะเทือนคอมเพลสเซอร์'
@@ -23,31 +38,9 @@ function Cards() {
               path ='/performance'
               target='_top'
 
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/GG7.png'
-              text='ข้อความคร่าวๆ                    '
-              label='ชื่อผลงาน'
-              path='/performance'
-              target='_top'
-            />
-            <CardItem
-              src='images/GG7.png'
-              text='ข้อความคร่าวๆ'
-              label='ชื่อผลงาน'
-              path='/performance'
-              target='_top'
-            />
-            {/* <CardItem
-              src='images/ทดสอบ2.png'
-              text='ข้อความคร่าวๆr'
-              label='Adrenaline'
-              path='/performance'
             /> */}
-          
-          </ul>
+          </div>
+         
           
         </div>
         <div>

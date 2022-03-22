@@ -28,6 +28,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>ช่องทางการติดต่อ</h2>
             <a i class='fas fa-phone-square-alt' >   phone   :      084-6648294</a>
+            <a i class = "fab fa-facebook  fa-5x" >     Facebook         :          Arduinoสุราษฎร์ธานี </a>
             <a i class= 'fa fa-envelope'>        email  :   phasitsophon1970@gmail.com</a>
             <a i class = "fab fa-line fa-5x" >     Line         :          084-6648294</a>
                           

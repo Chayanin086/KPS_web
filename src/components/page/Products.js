@@ -4,6 +4,7 @@ import Productcards from '../Productcards';
 import api from "../../utils/api";
 import _ from "lodash"
 import Footer from '../Footer';
+import Footer2 from '../Footer2';
 
 function Products() {
  
@@ -34,6 +35,7 @@ function Products() {
    <>
      <Productcards productData = {productData}/>
      <Footer />
+     <Footer2/>
      {/* {_.map(productData?.rows, (eachProduct) => (
     <div>
       {eachProduct?.name} {eachProduct?.price}

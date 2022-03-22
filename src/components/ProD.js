@@ -3,41 +3,31 @@ import './ProD.css';
 import ProDItem from './ProDItem';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
+import _, { each } from 'lodash'
+import ProductItem from './ProductItem';
+function ProD({productData}) {
 
-function ProD() {
+const productArray = _.take(productData?.rows,4);
+// const productArray = _.take(_.shuffle(productData?.rows),4);
+
     return (
       <div className='backpro'>
       <h1 >สินค้า</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ul className='Prod__items'>
-          <ProDItem
-              src='images/relay0003.jpg'
-              text='SHOP NOW! ฿999'
-              label='Relay'
-              path='/products'
-            />
-            <ProDItem
-              src='images/Timer.png'
-              text='SHOP NOW! ฿999'
-              label='Timer'
-              path='/products'
-            />
-            <ProDItem
-              src='images/เกียทดรอบ.jpg'
-              text='SHOP NOW! ฿999'
-              label='Worm gear'
-              path='/products'
-            />
-            <ProDItem
-              src='images/Hydrulic Valves.jpg'
-              text='SHOP NOW! ฿999'
-              label='Hydrulic Valves'
-              path='/products'
-            />
-          </ul>
-          <div>
           
+            <ul className='Prod__items'>
+            {_.map(productArray ,(eachProduct)=>(
+               <ProductItem
+               src={eachProduct?.images?.[0]?.url}
+               label={eachProduct?.name}
+               text={eachProduct?.price} //ราคา
+               text1={eachProduct?.inventory}
+               path={`/${eachProduct?.id}`}
+             />
+            ))}
+            </ul>
+
           <Link
           className='Proo' 
             to='/products'
@@ -46,7 +36,7 @@ function ProD() {
             สินค้าเพิ่มเติม
           </Link>
         
-        </div>
+        
         </div>
       </div>
     </div>

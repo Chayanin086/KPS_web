@@ -1,14 +1,15 @@
 .GG-container {
-    background-color: #383838;
-    padding: 0rem 0 3rem 0;
+    background-color: #2c2c2c;
+    padding: 0rem 0 0rem 0;
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+    margin-top: 1.5px;
     
   }
   
-  .GG-subscription {
+  /* .GG-subscription {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,14 +31,14 @@
     font-size: 35px;
     color: #ffffff;
     
-  }
+  } */
   
   /* .footer-subscription-text {
     margin-bottom: 24px;
     font-size: 20px;
   } */
   
-  .GG-input {
+  /* .GG-input {
     padding: 8px 20px;
     border-radius: 2px;
     margin-right: 10px;
@@ -46,7 +47,7 @@
     font-size: 18px;
     margin-bottom: 16px;
     border: 1px solid #fff;
-  }
+  } */
   
   .GG-links {
     width: 100%;
@@ -89,14 +90,14 @@
     text-decoration: none;
     margin-bottom: 0.5rem;
   } */
-  .GG-link-items > p {
+  /* .GG-link-items > p {
     color: rgb(255, 255, 255);
     line-height: 1.5;
     font-size: 18px;
     font-weight: 600;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
-  }
+  } */
   .GG-link-items > a {
     color: rgb(255, 255, 255);
     font-size: 18px;
@@ -109,9 +110,9 @@
     transition: 0.3s ease-out;
   }
   
-  .GG-email-form h2 {
+  /* .GG-email-form h2 {
     margin-bottom: 2rem;
-  }
+  } */
   
   .GG-input::placeholder {
     color: #b1b1b1;
@@ -128,7 +129,7 @@
     width: 100%;   
   }
   
-  .social-media-wrap {
+  /* .social-media-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -154,14 +155,16 @@
     display: flex;
     align-items: center;
     margin-bottom: 16px;
-  }
+  } */
   
   .GG{
     line-height:  110px;
     color: rgb(255, 255, 255);
-    margin-bottom: -50px;
+    margin-bottom: 50px;
     font-size: 10px;
-    padding: 4rem 0 2rem ;
+    /* padding: 4rem 0 2rem ; */
+    padding: 1rem 0 0rem ;
+    
   }
   
   @media screen and (max-width: 820px) {
@@ -188,6 +191,9 @@
   
   @media screen and (max-width: 768px) {
   }
-  hr{
-    border-top: 1px solid #ffffff;
+  .hr > zen{
+    border-top: 1px solid #ff0000;
+  }
+.zen{
+    border-top: 1px solid #ff0000;
   }
