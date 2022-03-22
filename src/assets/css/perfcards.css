@@ -37,7 +37,9 @@
 }
   
 .performance__item {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 550px 550px ;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
@@ -131,4 +133,10 @@
 .performance__item {
       margin-bottom: 2rem;
     }
+}
+@media screen and (max-width: 820px) {
+    .performance__items {
+        display: flex;
+    }
+
 }

@@ -186,6 +186,47 @@
     .social-media-wrap {
       flex-direction: column;
     }
+    .footer-link-items > p {
+      color: rgb(255, 255, 255);
+      line-height: 1.5;
+      font-size: 18px;
+      font-weight: 600;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
+    }
+    .footer-link-items > a {
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1.5;   
+    }
+    
+    .footer-link-items a:hover {
+      color: #ffffff;
+      transition: 0.3s ease-out;
+    }
+    .footer-link-items h2 {
+      margin-bottom: 20px;
+    }
+    
+    .footer-link-items > h2 {
+      color: rgb(252, 252, 252);
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif,'Designil Thai Font','Kanit';
+      align-items: center
+    }
+    .social-logo {
+      color: #fff;
+      justify-self: start;
+      margin-left: 150px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
   }
   
   @media screen and (max-width: 768px) {

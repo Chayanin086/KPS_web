@@ -7,6 +7,7 @@ import Performance from './page/Performance';
 import Contactus from './page/Contactus';
 import Detail  from './page/Detail';
 import { BrowserRouter as Router,Switch, Route } from 'react-router-dom';
+import Reward from './components/Reward';
 // import api from "./utils/api";
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/performance' component={Performance} />
           <Route path='/contact' component={Contactus} />
           <Route path='/detail/:id' component={Detail} />
+          <Route path='/Reward' component={Reward} />
           
         </Switch>
       </Router>

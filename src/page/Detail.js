@@ -9,11 +9,34 @@ const Detail = (props) => {
   return (
       <>
       <div className='mt-10  mb-10'>
-        <h1   className='text-center text-4xl	 mb-10'> {res.name}</h1>
+        <h1   className='text-center text-4xl	 mb-10 font-sans'> {res.name}</h1>
+
+        <div className='text-justify mt-10 px-8 text-lg font-sans ' >{parse(res.fullDetail2)}</div>
+         
+         
           <div className='detail-image'>
             <img src={res.image} alt={res.name}/>
           </div>
-          <div className='text-center mt-5'>{parse(res.fullDetail1)}</div>
+          <div className='text-justify mt-10 mx-10 px-8 text-lg font-sans' >{parse(res.fullDetail1)}</div>
+          <div className='detail-image'>
+            <img src={res.image2} />
+          
+          </div>
+          
+          
+          
+          <div className='text-center mt-10 px-8 text-lg font-sans font-medium ' >{parse(res.fullDetail3)}</div>
+          <div className='detail-image mt-10'>
+            <img src={res.image3} />
+            </div>
+            <div className='text-center mt-10 px-8 text-lg font-sans font-medium' >{(res.fullDetail4)}</div>
+          <div className='detail-image mt-10'>
+            <img src={res.image4} />
+            </div>
+            <div className='text-center mt-10 px-8 text-lg font-sans font-medium '  >{(res.fullDetail5)}</div>
+          <div className='detail-image mt-10'>
+            <img src={res.image5} /> 
+            </div>
       </div>
       </>
     )

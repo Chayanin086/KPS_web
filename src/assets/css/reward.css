@@ -1,0 +1,11 @@
+.fg>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 10%;
+}
+.fg>h1{
+    text-align: center;
+    font-size: 65px;
+}

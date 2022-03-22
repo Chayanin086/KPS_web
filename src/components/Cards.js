@@ -13,7 +13,7 @@ function Cards() {
           {mockupData.map((item, key)=>{
 
           })}
-          <div className='grid grid-cols-2 gap-10'>
+          <div className='grid  gap-10 sm:grid-cols-1 md:grid-cols-2'>
           {mockupData.slice(0, 4).map((item, key)=>{
               return (
                 <CardItem
