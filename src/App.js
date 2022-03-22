@@ -1,16 +1,17 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
-import Home from './components/page/Home';
-import Products from './components/page/Products';
-import Performance from './components/page/Performance';
-import Contactus from './components/page/Contactus';
+import Home from './page/Home';
+import Products from './page/Products';
+import Performance from './page/Performance';
+import Contactus from './page/Contactus';
+import Detail  from './page/Detail';
 import { BrowserRouter as Router,Switch, Route } from 'react-router-dom';
-import api from "./utils/api";
-import Detail  from './components/page/Detail';
+// import api from "./utils/api";
+
 
 function App() {
-   const { data} = api.get("https://admin.kps.eonlineshop.net/api/v1/product");
+   //const { data} = api.get("https://admin.kps.eonlineshop.net/api/v1/product");
   return (
     <>
       <Router>

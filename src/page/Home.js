@@ -1,14 +1,12 @@
 import React from 'react';
-import '../../App.css';
-import Cards from '../Cards';
-import HeroSection from '../HeroSection';
-import Footer from '../Footer';
-import ProD from '../ProD';
-import Footer2 from '../Footer2';
-import Productcards from '../Productcards';
-import _ from "lodash"
+import '../App.css';
+import Cards from '../components/Cards';
+import HeroSection from '../components/HeroSection';
+import Footer from '../components/Footer';
+import ProD from '../components/ProD';
+import Footer2 from '../components/Footer2' 
 import {useState,useEffect} from 'react';
-import api from "../../utils/api";
+import api from "../utils/api";
 
 
 

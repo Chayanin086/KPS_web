@@ -1,10 +1,10 @@
 import React,{useState,useEffect} from 'react';
-import '../../App.css';
-import Productcards from '../Productcards';
-import api from "../../utils/api";
-import _ from "lodash"
-import Footer from '../Footer';
-import Footer2 from '../Footer2';
+import '../App.css';
+import Productcards from '../components/Productcards';
+import api from "../utils/api";
+// import _ from "lodash"
+import Footer from '../components/Footer';
+import Footer2 from '../components/Footer2';
 
 function Products() {
  

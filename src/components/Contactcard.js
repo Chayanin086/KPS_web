@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contactcard.css';
+import '../assets/css/contactcard.css';
 import { Link } from 'react-router-dom';
 
 function Contactcard() {

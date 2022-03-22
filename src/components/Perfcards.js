@@ -1,5 +1,5 @@
 import React from 'react';
-import './Perfcards.css';
+import '../assets/css/perfcards.css';
 import PerfItem from './PerfItem';
 import {mockupData} from '../datas/pages'
 

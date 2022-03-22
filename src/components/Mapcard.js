@@ -1,5 +1,5 @@
 import React from "react";
-import './Mapcard.css';
+import '../assets/css/mapcard.css';
 
 export default function GoogleMap({ info }) {
   return (

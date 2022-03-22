@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProD.css';
+import '../assets/css/proD.css';
 import ProDItem from './ProDItem';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';

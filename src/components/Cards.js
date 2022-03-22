@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cards.css';
+import '../assets/css/cards.css';
 import CardItem from './CardItem';
 import { Link } from 'react-router-dom';
 import {mockupData} from '../datas/pages'

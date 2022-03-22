@@ -13,7 +13,7 @@ export const mockupData = [
     {
         id:'page2',
         name:"ไก่จ๋า",
-        image:"/images/perf.png",
+        image:"/images/perfor.png",
         except: "ไก่",
         fullDetail1: "<h1>ไก่ย่าง</h1> <br/>มะมาวงอี่อน.",
         path:'/detail/page2'

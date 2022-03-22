@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../App.css';
-import Perfcards from '../Perfcards';
-import Footer from '../Footer';
-import Footer2 from '../Footer2';
+import '../App.css';
+import Perfcards from '../components/Perfcards';
+import Footer from '../components/Footer';
+import Footer2 from '../components/Footer2';
 
 function Performance() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductItem from './ProductItem';
-import './Productcards.css';
+import '../assets/css/productcards.css';
 import _, { each } from 'lodash'
 
 // import Button from '@mui/material/Button';

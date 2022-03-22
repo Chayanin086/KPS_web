@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import '../assets/css/navbar.css';
 import Dropdown from './Dropdown';
 
 function Navbar() {
@@ -69,6 +69,7 @@ function Navbar() {
               to='/Products'
               className='nav-links'
               onClick={closeMobileMenu}
+              target='_top'
             >
               สินค้า     <i className='fas fa-caret-down' />
             </Link>

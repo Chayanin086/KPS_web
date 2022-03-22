@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contacthead.css';
+import '../assets/css/contacthead.css';
 
 function Contacthead() {
   return (
