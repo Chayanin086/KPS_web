@@ -19,30 +19,16 @@ function Dropdown(props) {
             <li key={index}>
               <a
                 className={item.cName}
-                href={`https://shop.kps.eonlineshop.net/productList/`} target='_blank'
-                
-                
-                
+                href={`https://shop.kps.co.th/productList/`} target='_blank'                                
                 onClick={() => setClick(false)}
-              >
-                  
-                {item.title}
-                
+              >                  
+                {item.title}                
               </a>
 
-
             </li>
-            
-
-            
-
-            
           );
         })}
-      </ul>
-
-
-      
+      </ul>      
     </>
   );
 }
