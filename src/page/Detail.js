@@ -6,10 +6,12 @@ import {mockupData} from '../datas/pages'
 const Detail = (props) => {
   const pageId = props.match.params.id
   const res = mockupData[mockupData.findIndex((page) => page.id===pageId)] 
+  
+  
   return (
       <>
       <div className='mt-10  mb-10'>
-        <h1   className='text-center text-4xl	 mb-10 font-sans'> {res.name}</h1>
+        <h1   className='text-center  lg:text-4xl md:text-4xl		sm:text-xl  mb-10 font-sans sm:text-center ' > {res.name}</h1>
 
         <div className='text-justify mt-10 px-8 text-lg font-sans ' >{parse(res.fullDetail2)}</div>
          

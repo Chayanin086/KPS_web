@@ -5,3 +5,23 @@
     margin-left: auto;
     margin-right: auto;
 }
+@media (min-width: 320px) { 
+    .detail-image>img{
+        max-width: 400px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+ }
+}
+@media (min-width: 1024px) { 
+    .detail-image>img{
+        max-width: 600px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
