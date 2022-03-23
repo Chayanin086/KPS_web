@@ -6,10 +6,10 @@ import '../assets/css/heroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <video src='/videos/video-9.mp4' autoPlay loop muted />
       <h1>ยินดีต้อนรับ</h1>
       <h1>สู่</h1>
-      <h1>KPS automation</h1>
+      <h1>KPS Automation</h1>
       <p>ศูนย์รวมสินค้า Automation</p>
       <div className='hero-btns'>
         {/* <Button

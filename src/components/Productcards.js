@@ -142,7 +142,7 @@ function Productcards({productData}) {
             />
           </ul> */}
           <div className='front'>
-          <a   href='https://shop.kps.co.th/productList' target="_blank">
+          <a   href='https://shop.kps.co.th/productList' >
             
             สั่งซื้อสินค้า
             คลิกที่นี่ 
