@@ -5,6 +5,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 @media (min-width: 320px) { 
     .detail-image>img{
         max-width: 400px;

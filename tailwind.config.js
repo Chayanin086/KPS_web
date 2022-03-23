@@ -3,5 +3,7 @@ module.exports = {
     theme: {
       extend: {},
     },
+    fontFamily:{
+      body: ['Kanit', 'sans-serif']} ,
     plugins: [],
   }
