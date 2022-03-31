@@ -11,7 +11,7 @@ function ProductItem(props) {
           
             <img
               className='product__item__img'
-              alt='Travel'
+              alt='GG'
               src={props?.src}
             />
           </figure>
